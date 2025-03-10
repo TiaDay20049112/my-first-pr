@@ -99,6 +99,9 @@ You probably got a similar error to this:
 
 ```text
 fatal: The current branch fix/pr-definition has no upstream branch
+
+##fix the error
+git push --set-upstream origin fix/pr-definition
 ```
 
 5. What does this error mean? Why did it happen? Git explains how to fix it by running a command that will:
